@@ -8,4 +8,10 @@ fastapi
 uvicorn[standard]
 {%- elif cookiecutter.application_type == "web-app-flask" -%}
 flask
+{%- elif cookiecutter.application_type == "web-app-fastapi" -%}
+fastapi
+uvicorn[standard]
+typer[all]
+jinja2
+python-multipart
 {%- endif -%}

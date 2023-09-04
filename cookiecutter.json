@@ -8,6 +8,7 @@
 		"cli",
 		"api-consumer",
 		"api-producer",
-		"web-app-flask"
+		"web-app-flask",
+		"web-app-fastapi"
 	]
 }
