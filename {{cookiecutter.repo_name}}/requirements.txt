@@ -8,6 +8,12 @@ fastapi
 uvicorn[standard]
 {%- elif cookiecutter.application_type == "web-app-flask" -%}
 flask
+flask-sqlalchemy
+flask-mail
+flask-login
+flask-assets
+werkzeug
+itsdangerous
 {%- elif cookiecutter.application_type == "web-app-fastapi" -%}
 fastapi
 uvicorn[standard]
