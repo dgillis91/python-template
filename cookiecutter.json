@@ -1,0 +1,13 @@
+{
+	"repo_name": "hello-world",
+	"author": "octocat",
+	"email": "",
+	"version": "0.0.1a",
+	"python_version": "3.11.5",
+	"application_type": [
+		"cli",
+		"api-consumer",
+		"api-producer",
+		"web-app-flask"
+	]
+}

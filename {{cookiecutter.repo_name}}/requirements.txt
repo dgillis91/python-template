@@ -1,0 +1,11 @@
+{%- if cookiecutter.application_type == "cli" -%}
+typer[all]
+{%- elif cookiecutter.application_type == "api-consumer" -%}
+requests
+aiohttp
+{%- elif cookiecutter.application_type == "api-producer" -%}
+fastapi
+uvicorn[standard]
+{%- elif cookiecutter.application_type == "web-app-flask" -%}
+flask
+{%- endif -%}
