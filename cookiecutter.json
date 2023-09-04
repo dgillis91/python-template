@@ -1,5 +1,7 @@
 {
 	"repo_name": "hello-world",
+	"github_url": "",
+	"project_description": "This is your first repository",
 	"author": "octocat",
 	"email": "",
 	"version": "0.0.1a",
